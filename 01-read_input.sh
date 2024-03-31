@@ -1,4 +1,4 @@
-#!/bin/bash
+ e#!/bin/bash
 # read the name of the user and print hello
 
 echo "Hello! What is your name"
@@ -10,3 +10,8 @@ echo 'Your name was stored in $name'
 
 # exercise: write a script that asks the user for a 
 # filename and create an empty file named after it
+
+echo "Hi, What would you like to put in the document?"
+read newDocument
+touch $newDocument.txt
+echp "$newDocument.txt has been created"
