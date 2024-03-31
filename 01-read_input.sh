@@ -14,4 +14,4 @@ echo 'Your name was stored in $name'
 echo "Hi, What would you like to put in the document?"
 read newDocument
 touch $newDocument.txt
-echp "$newDocument.txt has been created"
+echo "$newDocument.txt has been created"
